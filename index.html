@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Hangman Game</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="name">Hangman Game</h1>
+    </header>
+    <main class="container">
+      <div id="flag-section" class="section">
+        <h2 class="title flag-title">Press any key to get started</h2>
+        <img id="flagImg" src="./assets/images/tn_tu-flag.gif" alt="flag" />
+      </div>
+      <div id="current-word-section " class="section">
+        <h3 class="title">Current country name:</h3>
+        <p id="countryName"></p>
+      </div>
+      <div class="section info">
+        <p class="title">Letters Already Guessed:</p>
+        <p id="wrongLetters"></p>
+      </div>
+      <div class="section info">
+        <p class="title">Number of Guesses Remaining:</p>
+        <p id="chance"></p>
+      </div>
+      <div class="section info">
+        <p class="title">Wins:</p>
+        <p id="wins"></p>
+      </div>
+      <div class="section info">
+        <p class="title">Loses:</p>
+        <p id="loses"></p>
+      </div>
+    </main>
+    <script src="./assets/javascript/game.js"></script>
+  </body>
+</html>

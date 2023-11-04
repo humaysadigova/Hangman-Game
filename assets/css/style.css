@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+}
+.name {
+    font-size: 120px;
+    text-align: center;  
+    padding: 15px;
+    font-style: italic;
+    background: linear-gradient(pink, darkblue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+.container {
+    color: white;
+    font-family: "Permanent Marker", cursive;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-align: center;
+
+}
+.section {
+    display: block;
+    min-height: 90px;
+}
+.title {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.flag-title {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+#flag-section {
+    margin-bottom: 20px;
+}
